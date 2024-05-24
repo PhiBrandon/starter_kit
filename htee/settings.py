@@ -131,9 +131,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = "/static/"
+STATIC_URL = "/theme/static/"
 STATICFILES_DIRS = [
-    BASE_DIR / 'verynice/static',
     BASE_DIR / 'theme/static_src',
 ]
 # Default primary key field type
