@@ -15,7 +15,8 @@ from dotenv import load_dotenv
 import os
 import mimetypes
 mimetypes.add_type("text/css", ".css", True)
-mimetypes.add_type("text/js", ".js", True)
+mimetypes.add_type("text/html", ".css", True)
+mimetypes.add_type("text/html", ".js", True)
 
 
 
