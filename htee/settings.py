@@ -27,7 +27,7 @@ SECRET_KEY = os.environ["DJANGO_SECRET"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "bpdata.io"]
+ALLOWED_HOSTS = ["localhost", "app.bpdata.io"]
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
