@@ -13,10 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 from dotenv import load_dotenv
 import os
-import mimetypes
-mimetypes.add_type("text/css", ".css", True)
-mimetypes.add_type("text/html", ".css", True)
-mimetypes.add_type("text/html", ".js", True)
+
 
 
 
@@ -136,7 +133,7 @@ STATIC_URL = "static/"
 STATICFILES_DIRS = [
     BASE_DIR / 'theme/static_src',
 ]
-STATIC_ROOT = BASE_DIR / "static"
+STATIC_ROOT = "static"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
